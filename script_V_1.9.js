@@ -71,6 +71,7 @@ function mostrarPergunta() {
   resultadoDiv.classList.remove("celebration");
   botoesContainer.style.display = "flex";
   reiniciarContainer.style.display = "none";
+  document.getElementById("imagem-inicial").style.display = "block";
   atualizarBarraProgresso();
 }
 
