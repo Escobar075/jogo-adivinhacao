@@ -141,7 +141,7 @@ const traducoes = {
     erroZero: "🤔 Parece que seu número não está entre 1 e 63!",
     temaClaro: "Modo Claro",
     temaEscuro: "Modo Escuro",
-    desenvolvidoPor: "Desenvolvido por Miguel Escobar",
+    desenvolvidoPor: "©2025 Miguel Escobar — Todos os direitos reservados.",
     perguntaXdeY: (x, y) => `Pergunta ${x} de ${y}`,
     menuSecreto: {
       titulo: "Comandos de Teclado",
