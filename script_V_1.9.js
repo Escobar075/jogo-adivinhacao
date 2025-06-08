@@ -179,7 +179,7 @@ const traducoes = {
     erroZero: "🤔 It seems your number is not between 1 and 63!",
     temaClaro: "Light Mode",
     temaEscuro: "Dark Mode",
-    desenvolvidoPor: "Developed by Miguel Escobar",
+    desenvolvidoPor: "©2025 Miguel Escobar — All rights reserved.",
     perguntaXdeY: (x, y) => `Question ${x} of ${y}`,
     menuSecreto: {
       titulo: "Keyboard Commands",
@@ -217,7 +217,7 @@ const traducoes = {
     erroZero: "🤔 ¡Parece que tu número no está entre 1 y 63!",
     temaClaro: "Modo Claro",
     temaEscuro: "Modo Oscuro",
-    desenvolvidoPor: "Desarrollado por Miguel Escobar",
+    desenvolvidoPor: "©2025 Miguel Escobar — Todos los derechos reservados.",
     perguntaXdeY: (x, y) => `Pregunta ${x} de ${y}`,
     menuSecreto: {
       titulo: "Comandos de Teclado",
@@ -255,7 +255,7 @@ const traducoes = {
     erroZero: "🤔 Il semble que votre nombre ne soit pas entre 1 et 63 !",
     temaClaro: "Mode Clair",
     temaEscuro: "Mode Sombre",
-    desenvolvidoPor: "Développé par Miguel Escobar",
+    desenvolvidoPor: "©2025 Miguel Escobar — Tous droits réservés.",
     perguntaXdeY: (x, y) => `Question ${x} sur ${y}`,
     menuSecreto: {
       titulo: "Commandes Clavier",
@@ -293,7 +293,7 @@ const traducoes = {
     erroZero: "🤔 Sembra che il tuo numero non sia tra 1 e 63!",
     temaClaro: "Modalità Chiara",
     temaEscuro: "Modalità Scura",
-    desenvolvidoPor: "Sviluppato da Miguel Escobar",
+    desenvolvidoPor: "©2025 Miguel Escobar — Tutti i diritti riservati.",
     perguntaXdeY: (x, y) => `Domanda ${x} di ${y}`,
     menuSecreto: {
       titulo: "Comandi da Tastiera",
@@ -331,7 +331,7 @@ const traducoes = {
     erroZero: "🤔 Es scheint, deine Zahl liegt nicht zwischen 1 und 63!",
     temaClaro: "Heller Modus",
     temaEscuro: "Dunkler Modus",
-    desenvolvidoPor: "Entwickelt von Miguel Escobar",
+    desenvolvidoPor: "©2025 Miguel Escobar — Alle Rechte vorbehalten.",
     perguntaXdeY: (x, y) => `Frage ${x} von ${y}`,
     menuSecreto: {
       titulo: "Tastaturbefehle",
@@ -369,7 +369,7 @@ const traducoes = {
     erroZero: "🤔 Sepertinya angka Anda tidak berada di antara 1 dan 63!",
     temaClaro: "Mode Terang",
     temaEscuro: "Mode Gelap",
-    desenvolvidoPor: "Dikembangkan oleh Miguel Escobar",
+    desenvolvidoPor: "©2025 Miguel Escobar — Semua hak dilindungi.",
     perguntaXdeY: (x, y) => `Pertanyaan ${x} dari ${y}`,
     menuSecreto: {
       titulo: "Perintah Keyboard",
@@ -407,7 +407,7 @@ const traducoes = {
     erroZero: "🤔 Похоже, ваше число не входит в диапазон от 1 до 63!",
     temaClaro: "Светлая тема",
     temaEscuro: "Тёмная тема",
-    desenvolvidoPor: "Разработано Miguel Escobar",
+    desenvolvidoPor: "©2025 Miguel Escobar — Все права защищены.",
     perguntaXdeY: (x, y) => `Вопрос ${x} из ${y}`,
     menuSecreto: {
       titulo: "Горячие клавиши",
@@ -445,7 +445,7 @@ const traducoes = {
     erroZero: "🤔 看起来你的数字不在 1 到 63 之间！",
     temaClaro: "浅色模式",
     temaEscuro: "深色模式",
-    desenvolvidoPor: "由 Miguel Escobar 开发",
+    desenvolvidoPor: "©2025 Miguel Escobar — 版权所有。",
     perguntaXdeY: (x, y) => `第 ${x} 题，总共 ${y} 题`,
     menuSecreto: {
       titulo: "键盘命令",
@@ -483,7 +483,7 @@ const traducoes = {
     erroZero: "🤔 1から63の間の数字ではないようです！",
     temaClaro: "ライトモード",
     temaEscuro: "ダークモード",
-    desenvolvidoPor: "Miguel Escobar によって開発されました",
+    desenvolvidoPor: "©2025 Miguel Escobar — 無断転載を禁じます。",
     perguntaXdeY: (x, y) => `質問 ${x} / ${y}`,
     menuSecreto: {
       titulo: "キーボードコマンド",
@@ -521,7 +521,7 @@ const traducoes = {
     erroZero: "🤔 1에서 63 사이의 숫자가 아닌 것 같아요!",
     temaClaro: "라이트 모드",
     temaEscuro: "다크 모드",
-    desenvolvidoPor: "Miguel Escobar 제작",
+    desenvolvidoPor: "©2025 Miguel Escobar — 모든 권리 보유.",
     perguntaXdeY: (x, y) => `${y}의 ${x}번째 질문`,
     menuSecreto: {
       titulo: "키보드 명령어",
@@ -559,7 +559,7 @@ const traducoes = {
     erroZero: "🤔 يبدو أن رقمك ليس بين 1 و 63!",
     temaClaro: "الوضع الفاتح",
     temaEscuro: "الوضع الداكن",
-    desenvolvidoPor: "تم التطوير بواسطة Miguel Escobar",
+    desenvolvidoPor: "©2025 ميغيل إسكوبار — جميع الحقوق محفوظة.",
     perguntaXdeY: (x, y) => `السؤال ${x} من ${y}`,
     menuSecreto: {
       titulo: "أوامر لوحة المفاتيح",
@@ -597,7 +597,7 @@ const traducoes = {
     erroZero: "🤔 लगता है आपकी संख्या 1 से 63 के बीच नहीं है!",
     temaClaro: "प्रकाश मोड",
     temaEscuro: "डार्क मोड",
-    desenvolvidoPor: "Miguel Escobar द्वारा विकसित",
+    desenvolvidoPor: "©2025 मिगुएल एस्कोबार — सर्वाधिकार सुरक्षित।",
     perguntaXdeY: (x, y) => `प्रश्न ${x} में से ${y}`,
     menuSecreto: {
       titulo: "कीबोर्ड कमांड",
@@ -635,7 +635,7 @@ const traducoes = {
     erroZero: "🤔 মনে হচ্ছে আপনার সংখ্যা 1 থেকে 63-এর মধ্যে নয়!",
     temaClaro: "আলো মোড",
     temaEscuro: "ডার্ক মোড",
-    desenvolvidoPor: "Miguel Escobar দ্বারা উন্নত করা হয়েছে",
+    desenvolvidoPor: "©২০২৫ মিগুয়েল এস্কোবার — সর্বস্বত্ব সংরক্ষিত।",
     perguntaXdeY: (x, y) => `প্রশ্ন ${x} এর ${y}`,
     menuSecreto: {
       titulo: "কীবোর্ড কমান্ড",
@@ -673,7 +673,7 @@ const traducoes = {
     erroZero: "🤔 لگتا ہے آپ کا نمبر 1 سے 63 کے درمیان نہیں ہے!",
     temaClaro: "روشن موڈ",
     temaEscuro: "اندھیرا موڈ",
-    desenvolvidoPor: "ڈویلپ کیا گیا از Miguel Escobar",
+    desenvolvidoPor: "©2025 میگوئل ایسکوبار — جملہ حقوق محفوظ ہیں۔",
     perguntaXdeY: (x, y) => `سوال ${x} میں سے ${y}`,
     menuSecreto: {
       titulo: "کی بورڈ کمانڈز",
@@ -711,7 +711,7 @@ const traducoes = {
     erroZero: "🤔 तुमची संख्या 1 ते 63 दरम्यान दिसत नाही!",
     temaClaro: "प्रकाश मोड",
     temaEscuro: "गडद मोड",
-    desenvolvidoPor: "Miguel Escobar द्वारा विकसित",
+    desenvolvidoPor: "©2025 मिगुएल एस्कोबार — सर्व हक्क राखीव.",
     perguntaXdeY: (x, y) => `प्रश्न ${x} का ${y}`,
     menuSecreto: {
       titulo: "कीबोर्ड आदेश",
@@ -749,7 +749,7 @@ const traducoes = {
     erroZero: "🤔 ดูเหมือนว่าหมายเลขของคุณจะไม่อยู่ระหว่าง 1 ถึง 63!",
     temaClaro: "โหมดสว่าง",
     temaEscuro: "โหมดมืด",
-    desenvolvidoPor: "พัฒนาโดย Miguel Escobar",
+    desenvolvidoPor: "©2025 มิเกล เอสโกบาร์ — สงวนลิขสิทธิ์ทั้งหมด.",
     perguntaXdeY: (x, y) => `คำถาม ${x} จาก ${y}`,
     menuSecreto: {
       titulo: "คำสั่งคีย์บอร์ด",
