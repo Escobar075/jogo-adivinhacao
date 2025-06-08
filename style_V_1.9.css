@@ -469,3 +469,11 @@ body.dark #menu-secreto button:hover {
   outline: 3px solid #28a745;
   outline-offset: 2px;
 }
+
+#imagem-resposta {
+  transition: opacity 0.5s ease;
+}
+
+#botoes-container {
+  position: relative;
+}
