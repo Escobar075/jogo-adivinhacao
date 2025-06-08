@@ -94,7 +94,7 @@ function responder(sim) {
     } else {
       mostrarResultado();
     }
-  }, 1100);
+  }, 700);
 }
 
 function mostrarResultado() {
