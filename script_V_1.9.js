@@ -75,23 +75,41 @@ function mostrarPergunta() {
 }
 
 function responder(sim) {
-  if (sim) {
-    numero += valores[indicePergunta];
-  }
-  indicePergunta++;
-  if (indicePergunta < conjuntos.length) {
-    mostrarPergunta();
-  } else {
-    mostrarResultado();
-  }
+  // Esconde a imagem inicial após a primeira resposta
+  document.getElementById("imagem-inicial").style.display = "none";
+
+  imagemResposta.style.display = "block";
+  imagemResposta.src = sim ? "sim.png" : "nao.png";
+
+  setTimeout(() => {
+    imagemResposta.style.display = "none";
+
+    if (sim) {
+      numero += valores[indicePergunta];
+    }
+    indicePergunta++;
+
+    if (indicePergunta < conjuntos.length) {
+      mostrarPergunta();
+    } else {
+      mostrarResultado();
+    }
+  }, 1000);
 }
 
 function mostrarResultado() {
   perguntaContainer.innerHTML = "";
   botoesContainer.style.display = "none";
 
+  const imagemFinal = document.createElement("img");
+  imagemFinal.id = "imagem-final";
+  imagemFinal.style.display = "block";
+  imagemFinal.style.margin = "2rem auto";
+  imagemFinal.style.maxWidth = "250px";
+
   if (numero === 0) {
     resultadoDiv.textContent = traducoes[idiomaAtual].erroZero;
+    imagemFinal.src = "zero.png"; // imagem se número for 0
   } else {
     resultadoDiv.textContent = traducoes[idiomaAtual].resultado(numero);
     resultadoDiv.classList.add("celebration");
@@ -100,11 +118,23 @@ function mostrarResultado() {
       spread: 80,
       origin: { y: 0.6 }
     });
-
+    imagemFinal.src = "resultado.png"; // imagem para qualquer outro número
   }
 
+  resultadoDiv.appendChild(imagemFinal);
   reiniciarContainer.style.display = "flex";
 }
+
+const imagemResposta = document.createElement("img");
+imagemResposta.id = "imagem-resposta";
+imagemResposta.style.display = "none";
+imagemResposta.style.position = "absolute";
+imagemResposta.style.top = "125%";
+imagemResposta.style.left = "50%";
+imagemResposta.style.transform = "translate(-50%, -50%)";
+imagemResposta.style.zIndex = "999";
+imagemResposta.style.maxWidth = "200px";
+document.body.appendChild(imagemResposta);
 
 btnSim.addEventListener("click", () => responder(true));
 btnNao.addEventListener("click", () => responder(false));
