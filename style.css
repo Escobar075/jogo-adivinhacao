@@ -478,7 +478,7 @@ body.dark #menu-secreto button:hover {
 }
 
 body.dark h1 {
-  background: linear-gradient(90deg, #e2e8f0, #a6f48b);
+  background: linear-gradient(180deg, #e2e8f0, #a6f48b);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   text-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
