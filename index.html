@@ -14,9 +14,15 @@
         <div id="menu-config" class="menu-fechado">
           <div class="menu-subbloco">
             <button id="btn-menu-tema">🎨 Tema</button>
-            <div id="menu-tema" class="menu-fechado">
-              <button id="btn-toggle-theme">Modo Escuro</button>
-            </div>
+              <div id="menu-tema" class="menu-fechado">
+                <button id="btn-toggle-theme">Modo Escuro</button>
+                <div class="menu-subbloco">
+                  <button id="btn-menu-brilho">💡 Brilho</button>
+                  <div id="menu-brilho" class="menu-fechado">
+                    <input type="range" id="controle-brilho" min="0" max="10" value="5" />
+                  </div>
+                </div>
+              </div>
           </div>
           <div class="menu-subbloco">
             <button id="btn-menu-idioma">🌐 Idiomas</button>
