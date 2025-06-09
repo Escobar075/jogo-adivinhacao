@@ -950,6 +950,14 @@ if (e.key === "i" || e.key === "I") {
     btnMenuIdioma.click();
   }
 }
+
+  if (e.key === "c" || e.key === "C") {
+  if (menuPrincipal.classList.contains("menu-fechado")) {
+    menuHamburguer.click();
+  }
+
+  btnMenuConfig.click(); 
+} 
   
   if (e.key === "m" || e.key === "M") {
      menuHamburguer.click();
