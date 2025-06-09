@@ -880,9 +880,9 @@ btnMenuBrilho.addEventListener("click", () => {
 
 idiomaBtns.forEach(btn => {
   btn.addEventListener("click", () => {
-    const lang = btn.dataset.lang; // Agora lang está corretamente definido
+    const lang = btn.dataset.lang; 
     atualizarIdioma(lang);
-    localStorage.setItem("idioma", lang); // Salva corretamente no localStorage
+    localStorage.setItem("idioma", lang); 
     menuIdioma.classList.add("menu-fechado");
     idiomaBtns.forEach(b => b.classList.remove("idioma-ativo"));
     btn.classList.add("idioma-ativo");
@@ -934,11 +934,35 @@ btnMenuIdioma.addEventListener("click", () => {
 
 
 document.addEventListener("keydown", function (e) {
+
+
+
+  
+  if (e.key === "c" || e.key === "C") {
+  if (menuPrincipal.classList.contains("menu-fechado")) {
+    menuHamburguer.click();
+  }
+  if (menuIdioma.classList.contains("menu-fechado")) {
+    btnMenuConfig.click(); 
+  }
+} 
+
+  if (e.key === "p" || e.key === "P") {
+  if (menuIdioma.classList.contains("menu-fechado")){  
+    menuHamburgue.click();
+  }
+  if (menuIdioma.classList.contains("menu-fechado")){  
+    btnMenuConf.click(); 
+  }
+  if (menuIdioma.classList.contains("menu-fechado")){  
+    btnMenuTema.click();  
+  }  
+}    
   if (e.key === "t" || e.key === "T") {
     btnToggleTheme.click();
   }
 
-if (e.key === "i" || e.key === "I") {
+    if (e.key === "i" || e.key === "I") {
   if (menuPrincipal.classList.contains("menu-fechado")) {
     menuHamburguer.click();
   }
@@ -951,20 +975,10 @@ if (e.key === "i" || e.key === "I") {
     btnMenuIdioma.click();
   }
 }
-
-  if (e.key === "c" || e.key === "C") {
-  if (menuPrincipal.classList.contains("menu-fechado")) {
-    menuHamburguer.click();
-  }
-  if (menuIdioma.classList.contains("menu-fechado")) {
-    btnMenuConfig.click(); 
-  }
-} 
   
   if (e.key === "m" || e.key === "M") {
      menuHamburguer.click();
   }
-
   if (idiomaVisivel) {
     if (e.key === "ArrowDown") {
       e.preventDefault();
