@@ -477,6 +477,13 @@ body.dark #menu-secreto button:hover {
   background: #2b3a58;
 }
 
+body.dark h1 {
+  background: linear-gradient(90deg, #e2e8f0, #a6f48b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+}
+
 .idioma-btn:focus {
   outline: 3px solid #28a745;
   outline-offset: 2px;
