@@ -496,3 +496,50 @@ body.dark h1 {
 #botoes-container {
   position: relative;
 }
+
+#menu-config {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  margin-top: 0.5rem;
+  padding-left: 0.5rem;
+  border-left: 2px solid #ccc;
+}
+
+#menu-tema,
+#menu-idioma {
+  margin-top: 0.4rem;
+  padding-left: 0.8rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.menu-subbloco > button {
+  background: #4b78d6;
+  color: white;
+  border: none;
+  padding: 0.4rem 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 0.95rem;
+}
+
+.menu-subbloco > button:hover {
+  background: #2e4fa1;
+}
+
+#menu-tema.menu-fechado,
+#menu-idioma.menu-fechado,
+#menu-config.menu-fechado {
+  display: none;
+}
+
+body.dark .menu-subbloco > button {
+  background: #465a83;
+  color: #d9e3f0;
+}
+
+body.dark .menu-subbloco > button:hover {
+  background: #2b3a58;
+}
