@@ -548,3 +548,23 @@ body.dark .menu-subbloco > button {
 body.dark .menu-subbloco > button:hover {
   background: #2b3a58;
 }
+
+#menu-brilho {
+  margin-top: 0.4rem;
+  padding-left: 0.8rem;
+  display: flex;
+  flex-direction: column;
+}
+
+#menu-brilho.menu-fechado {
+  display: none;
+}
+
+#controle-brilho {
+  width: 150px;
+  accent-color: #4b78d6;
+}
+
+body.dark #controle-brilho {
+  accent-color: #a6f48b;
+}
