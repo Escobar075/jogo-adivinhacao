@@ -933,11 +933,7 @@ btnMenuIdioma.addEventListener("click", () => {
 });
 
 
-document.addEventListener("keydown", function (e) {
-
-
-
-  
+document.addEventListener("keydown", function (e) {  
   if (e.key === "c" || e.key === "C") {
   if (menuPrincipal.classList.contains("menu-fechado")) {
     menuHamburguer.click();
@@ -947,17 +943,19 @@ document.addEventListener("keydown", function (e) {
   }
 } 
 
-  if (e.key === "p" || e.key === "P") {
-  if (menuIdioma.classList.contains("menu-fechado")){  
-    menuHamburgue.click();
+if (e.key === "t" || e.key === "T") {
+  if (menuPrincipal.classList.contains("menu-fechado")) {
+    menuHamburguer.click();
   }
-  if (menuIdioma.classList.contains("menu-fechado")){  
-    btnMenuConf.click(); 
+
+  if (menuConfig.classList.contains("menu-fechado")) {
+    btnMenuConfig.click();
   }
-  if (menuIdioma.classList.contains("menu-fechado")){  
-    btnMenuTema.click();  
-  }  
-}    
+
+  if (menuTema.classList.contains("menu-fechado")) {
+    btnMenuTema.click();
+  }
+}
   if (e.key === "t" || e.key === "T") {
     btnToggleTheme.click();
   }
