@@ -180,8 +180,9 @@ const traducoes = {
     menuSecreto: {
       titulo: "Comandos de Teclado",
       comandos: [
-        "<strong>T</strong> - Alternar Modo Claro/Escuro",
         "<strong>M</strong> - Abrir/Fechar Menu",
+        "<strong>C</strong> - Abrir configuração",
+        "<strong>T</strong> - Alternar Modo Claro/Escuro",
         "<strong>I</strong> - Abrir/Fechar Idiomas",
         "<strong>↑ / ↓</strong> - Navegar entre idiomas",
         "<strong>S</strong> - Responder \"Sim\"",
