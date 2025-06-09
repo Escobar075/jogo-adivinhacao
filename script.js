@@ -187,7 +187,7 @@ const traducoes = {
         "<strong>S</strong> - Responder \"Sim\"",
         "<strong>N</strong> - Responder \"Não\"",
         "<strong>R</strong> - Reiniciar o jogo",
-        "<strong>C</strong> - Abrir este menu secreto de comandos"
+        "<strong>D</strong> - Abrir este menu secreto de comandos"
       ],
       fechar: "Fechar"
     }
@@ -225,7 +225,7 @@ const traducoes = {
         "<strong>S</strong> - Answer \"Yes\"",
         "<strong>N</strong> - Answer \"No\"",
         "<strong>R</strong> - Restart the game",
-        "<strong>C</strong> - Open this secret command menu"
+        "<strong>D</strong> - Open this secret command menu"
       ],
       fechar: "Close"
     }
@@ -263,7 +263,7 @@ const traducoes = {
         "<strong>S</strong> - Responder \"Sí\"",
         "<strong>N</strong> - Responder \"No\"",
         "<strong>R</strong> - Reiniciar el juego",
-        "<strong>C</strong> - Abrir este menú secreto de comandos"
+        "<strong>D</strong> - Abrir este menú secreto de comandos"
       ],
       fechar: "Cerrar"
     }
@@ -301,7 +301,7 @@ const traducoes = {
         "<strong>S</strong> - Répondre \"Oui\"",
         "<strong>N</strong> - Répondre \"Non\"",
         "<strong>R</strong> - Redémarrer le jeu",
-        "<strong>C</strong> - Ouvrir ce menu secret de commandes"
+        "<strong>D</strong> - Ouvrir ce menu secret de commandes"
       ],
       fechar: "Fermer"
     }
@@ -339,7 +339,7 @@ const traducoes = {
         "<strong>S</strong> - Rispondere \"Sì\"",
         "<strong>N</strong> - Rispondere \"No\"",
         "<strong>R</strong> - Riavvia il gioco",
-        "<strong>C</strong> - Apri questo menu segreto di comandi"
+        "<strong>D</strong> - Apri questo menu segreto di comandi"
       ],
       fechar: "Chiudi"
     }
@@ -377,7 +377,7 @@ const traducoes = {
         "<strong>S</strong> - Mit \"Ja\" antworten",
         "<strong>N</strong> - Mit \"Nein\" antworten",
         "<strong>R</strong> - Spiel neu starten",
-        "<strong>C</strong> - Dieses geheime Befehlsmenü öffnen"
+        "<strong>D</strong> - Dieses geheime Befehlsmenü öffnen"
       ],
       fechar: "Schließen"
     }
@@ -415,7 +415,7 @@ const traducoes = {
         "<strong>S</strong> - Jawab \"Ya\"",
         "<strong>N</strong> - Jawab \"Tidak\"",
         "<strong>R</strong> - Mulai ulang permainan",
-        "<strong>C</strong> - Buka menu perintah rahasia ini"
+        "<strong>D</strong> - Buka menu perintah rahasia ini"
       ],
       fechar: "Tutup"
     }
@@ -453,7 +453,7 @@ const traducoes = {
         "<strong>S</strong> - Ответить \"Да\"",
         "<strong>N</strong> - Ответить \"Нет\"",
         "<strong>R</strong> - Перезапустить игру",
-        "<strong>C</strong> - Открыть это секретное меню команд"
+        "<strong>D</strong> - Открыть это секретное меню команд"
       ],
       fechar: "Закрыть"
     }
@@ -491,7 +491,7 @@ const traducoes = {
         "<strong>S</strong> - 回答“是”",
         "<strong>N</strong> - 回答“否”",
         "<strong>R</strong> - 重新开始游戏",
-        "<strong>C</strong> - 打开这个隐藏命令菜单"
+        "<strong>D</strong> - 打开这个隐藏命令菜单"
       ],
       fechar: "关闭"
     }
@@ -529,7 +529,7 @@ const traducoes = {
         "<strong>S</strong> - 「はい」と答える",
         "<strong>N</strong> - 「いいえ」と答える",
         "<strong>R</strong> - ゲームを再起動",
-        "<strong>C</strong> - この秘密のコマンドメニューを開く"
+        "<strong>D</strong> - この秘密のコマンドメニューを開く"
       ],
       fechar: "閉じる"
     }
@@ -567,7 +567,7 @@ const traducoes = {
         "<strong>S</strong> - \"예\"로 답하기",
         "<strong>N</strong> - \"아니오\"로 답하기",
         "<strong>R</strong> - 게임 재시작",
-        "<strong>C</strong> - 이 비밀 명령어 메뉴 열기"
+        "<strong>D</strong> - 이 비밀 명령어 메뉴 열기"
       ],
       fechar: "닫기"
     }
@@ -605,7 +605,7 @@ const traducoes = {
         "<strong>S</strong> - الرد بـ \"نعم\"",
         "<strong>N</strong> - الرد بـ \"لا\"",
         "<strong>R</strong> - إعادة تشغيل اللعبة",
-        "<strong>C</strong> - فتح قائمة الأوامر السرية هذه"
+        "<strong>D</strong> - فتح قائمة الأوامر السرية هذه"
       ],
       fechar: "إغلاق"
     }
@@ -643,7 +643,7 @@ const traducoes = {
         "<strong>S</strong> - \"हाँ\" का उत्तर दें",
         "<strong>N</strong> - \"नहीं\" का उत्तर दें",
         "<strong>R</strong> - खेल पुनः प्रारंभ करें",
-        "<strong>C</strong> - इस गुप्त कमांड मेनू को खोलें"
+        "<strong>D</strong> - इस गुप्त कमांड मेनू को खोलें"
       ],
       fechar: "बंद करें"
     }
@@ -681,7 +681,7 @@ const traducoes = {
         "<strong>S</strong> - \"হ্যাঁ\" উত্তর দিন",
         "<strong>N</strong> - \"না\" উত্তর দিন",
         "<strong>R</strong> - খেলা পুনরায় শুরু করুন",
-        "<strong>C</strong> - এই গোপন কমান্ড মেনু খুলুন"
+        "<strong>D</strong> - এই গোপন কমান্ড মেনু খুলুন"
       ],
       fechar: "বন্ধ করুন"
     }
@@ -719,7 +719,7 @@ const traducoes = {
         "<strong>S</strong> - \"ہاں\" کا جواب دیں",
         "<strong>N</strong> - \"نہیں\" کا جواب دیں",
         "<strong>R</strong> - کھیل دوبارہ شروع کریں",
-        "<strong>C</strong> - یہ خفیہ کمانڈ مینو کھولیں"
+        "<strong>D</strong> - یہ خفیہ کمانڈ مینو کھولیں"
       ],
       fechar: "بند کریں"
     }
@@ -757,7 +757,7 @@ const traducoes = {
         "<strong>S</strong> - \"होय\" उत्तर द्या",
         "<strong>N</strong> - \"नाही\" उत्तर द्या",
         "<strong>R</strong> - खेळ पुन्हा सुरू करा",
-        "<strong>C</strong> - हे गुप्त आदेश मेनू उघडा"
+        "<strong>D</strong> - हे गुप्त आदेश मेनू उघडा"
       ],
       fechar: "बंद करा"
     }
@@ -795,7 +795,7 @@ const traducoes = {
         "<strong>S</strong> - ตอบว่า \"ใช่\"",
         "<strong>N</strong> - ตอบว่า \"ไม่\"",
         "<strong>R</strong> - เริ่มเกมใหม่",
-        "<strong>C</strong> - เปิดเมนูคำสั่งลับนี้"
+        "<strong>D</strong> - เปิดเมนูคำสั่งลับนี้"
       ],
       fechar: "ปิด"
     }
@@ -937,14 +937,20 @@ document.addEventListener("keydown", function (e) {
     btnToggleTheme.click();
   }
 
-  if (e.key === "i" || e.key === "I") {
-    if (menuPrincipal.classList.contains("menu-fechado")) {
-      menuHamburguer.click();
-    }
-    if (menuIdioma.classList.contains("menu-fechado")) {
-      btnMenuIdioma.click();
-    }
+if (e.key === "i" || e.key === "I") {
+  if (menuPrincipal.classList.contains("menu-fechado")) {
+    menuHamburguer.click();
   }
+
+  if (menuConfig.classList.contains("menu-fechado")) {
+    btnMenuConfig.click();
+  }
+
+  if (menuIdioma.classList.contains("menu-fechado")) {
+    btnMenuIdioma.click();
+  }
+}
+  
   if (e.key === "m" || e.key === "M") {
      menuHamburguer.click();
   }
@@ -999,7 +1005,7 @@ const btnFecharSecreto = document.getElementById("btn-fechar-secreto");
 let combinacaoSecreta = [];
 
 document.addEventListener("keydown", function (e) {
-  if (e.key === "c" || e.key === "C") {
+  if (e.key === "d" || e.key === "D") {
     menuSecreto.classList.toggle("menu-fechado");
   }
 });
