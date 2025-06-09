@@ -62,6 +62,9 @@ const btnSim = document.getElementById("btn-sim");
 const btnNao = document.getElementById("btn-nao");
 const btnReiniciar = document.getElementById("btn-reiniciar");
 const btnToggleTheme = document.getElementById("btn-toggle-theme");
+const btnMenuBrilho = document.getElementById("btn-menu-brilho");
+const menuBrilho = document.getElementById("menu-brilho");
+const controleBrilho = document.getElementById("controle-brilho");
 
 function mostrarPergunta() {
   const t = traducoes[idiomaAtual];
@@ -870,6 +873,10 @@ btnMenuTema.addEventListener("click", () => {
   menuTema.classList.toggle("menu-fechado");
 });
 
+btnMenuBrilho.addEventListener("click", () => {
+  menuBrilho.classList.toggle("menu-fechado");
+});
+
 idiomaBtns.forEach(btn => {
   btn.addEventListener("click", () => {
     const lang = btn.dataset.lang; // Agora lang está corretamente definido
@@ -1021,4 +1028,13 @@ document.addEventListener("click", (event) => {
       menuPrincipal.classList.add("menu-fechado");
     }
   }
+});
+
+controleBrilho.addEventListener("input", () => {
+  const brilho = controleBrilho.value;
+  const intensidade = brilho / 10;
+  const resultado = document.getElementById("resultado");
+  resultado.style.textShadow = `
+    0 0 ${10 + brilho * 2}px rgba(199, 244, 100, ${intensidade})
+  `;
 });
