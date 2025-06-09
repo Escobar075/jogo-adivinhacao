@@ -956,8 +956,9 @@ if (e.key === "i" || e.key === "I") {
   if (menuPrincipal.classList.contains("menu-fechado")) {
     menuHamburguer.click();
   }
-
-  btnMenuConfig.click(); 
+  if (menuIdioma.classList.contains("menu-fechado")) {
+    btnMenuConfig.click(); 
+  }
 } 
   
   if (e.key === "m" || e.key === "M") {
