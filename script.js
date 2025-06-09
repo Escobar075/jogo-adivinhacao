@@ -849,6 +849,10 @@ const menuPrincipal = document.getElementById("menu-principal");
 const btnMenuIdioma = document.getElementById("btn-menu-idioma");
 const menuIdioma = document.getElementById("menu-idioma");
 const idiomaBtns = document.querySelectorAll(".idioma-btn");
+const btnMenuConfig = document.getElementById("btn-menu-config");
+const menuConfig = document.getElementById("menu-config");
+const btnMenuTema = document.getElementById("btn-menu-tema");
+const menuTema = document.getElementById("menu-tema");
 
 menuHamburguer.addEventListener("click", () => {
   menuPrincipal.classList.toggle("menu-fechado");
@@ -856,6 +860,14 @@ menuHamburguer.addEventListener("click", () => {
 
 btnMenuIdioma.addEventListener("click", () => {
   menuIdioma.classList.toggle("menu-fechado");
+});
+
+btnMenuConfig.addEventListener("click", () => {
+  menuConfig.classList.toggle("menu-fechado");
+});
+
+btnMenuTema.addEventListener("click", () => {
+  menuTema.classList.toggle("menu-fechado");
 });
 
 idiomaBtns.forEach(btn => {
@@ -992,15 +1004,19 @@ btnFecharSecreto.addEventListener("click", function () {
 document.addEventListener("click", (event) => {
   const isClickInsideMenu = menuPrincipal.contains(event.target) || menuHamburguer.contains(event.target);
   const isClickInsideIdioma = menuIdioma.contains(event.target) || btnMenuIdioma.contains(event.target);
+  const isClickInsideConfig = menuConfig.contains(event.target) || btnMenuConfig.contains(event.target);
+  const isClickInsideTema = menuTema.contains(event.target) || btnMenuTema.contains(event.target);
 
-  // Se clicou fora dos dois menus
-  if (!isClickInsideMenu && !isClickInsideIdioma) {
-    // Fecha o menu de idiomas, se estiver aberto
+  if (!isClickInsideMenu && !isClickInsideIdioma && !isClickInsideConfig && !isClickInsideTema) {
     if (!menuIdioma.classList.contains("menu-fechado")) {
       menuIdioma.classList.add("menu-fechado");
     }
-
-    // Depois fecha o menu principal, se estiver aberto
+    if (!menuTema.classList.contains("menu-fechado")) {
+      menuTema.classList.add("menu-fechado");
+    }
+    if (!menuConfig.classList.contains("menu-fechado")) {
+      menuConfig.classList.add("menu-fechado");
+    }
     if (!menuPrincipal.classList.contains("menu-fechado")) {
       menuPrincipal.classList.add("menu-fechado");
     }
