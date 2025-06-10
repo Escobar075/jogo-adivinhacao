@@ -944,18 +944,14 @@ document.addEventListener("keydown", function (e) {
 } 
 
 if (e.key === "p" || e.key === "P") {
-  if (menuPrincipal.classList.contains("menu-fechado")) {
-    menuHamburguer.click();
-  }
-
-  if (menuConfig.classList.contains("menu-fechado")) {
-    btnMenuConfig.click();
-  }
-
-  if (menuTema.classList.contains("menu-fechado")) {
-    btnMenuTema.click();
+  const barra = document.getElementById("barra-progresso");
+  if (barra.style.display === "none") {
+    barra.style.display = "block";
+  } else {
+    barra.style.display = "none";
   }
 }
+
   if (e.key === "t" || e.key === "T") {
     btnToggleTheme.click();
   }
