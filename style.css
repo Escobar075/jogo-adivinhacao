@@ -134,7 +134,7 @@ button:active {
 }
 
 #resultado.celebration {
-  animation: pulseGlow 1.6s ease-in-out infinite alternate;
+
 }
 
 @keyframes pulseGlow {
