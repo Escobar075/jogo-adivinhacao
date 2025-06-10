@@ -71,7 +71,6 @@ function mostrarPergunta() {
   const perguntaTexto = ""; 
   perguntaContainer.innerHTML = perguntaTexto + `<pre class="fade-in">${conjuntos[indicePergunta]}</pre>`;
   resultadoDiv.textContent = "";
-  resultadoDiv.classList.remove("celebration");
   botoesContainer.style.display = "flex";
   reiniciarContainer.style.display = "none";
   atualizarBarraProgresso();
@@ -1061,4 +1060,19 @@ controleBrilho.addEventListener("input", () => {
   resultado.style.textShadow = `
     0 0 ${10 + brilho * 2}px rgba(199, 244, 100, ${intensidade})
   `;
+});
+
+controleBrilho.addEventListener("input", () => {
+  const brilho = parseInt(controleBrilho.value);
+  if (brilho === 0) {
+    resultadoDiv.style.textShadow = "none";
+    resultadoDiv.style.animation = "none";
+  } else {
+    const intensidade = brilho * 3; // ajuste de escala do brilho
+    resultadoDiv.style.textShadow = `
+      0 0 ${intensidade}px #c7f464aa,
+      0 0 ${intensidade * 2}px #c7f464cc
+    `;
+    resultadoDiv.style.animation = "none"; // Remove pulse se estiver ativo
+  }
 });
