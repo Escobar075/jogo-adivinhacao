@@ -943,7 +943,7 @@ document.addEventListener("keydown", function (e) {
   }
 } 
 
-if (e.key === "t" || e.key === "T") {
+if (e.key === "p" || e.key === "P") {
   if (menuPrincipal.classList.contains("menu-fechado")) {
     menuHamburguer.click();
   }
