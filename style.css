@@ -555,3 +555,12 @@ body.dark .menu-subbloco > button:hover {
 body.dark #controle-brilho {
   accent-color: #a6f48b;
 }
+
+@keyframes pulseGlow {
+  from {
+    text-shadow: 0 0 15px #c7f464aa, 0 0 25px #c7f464cc;
+  }
+  to {
+    text-shadow: 0 0 35px #c7f464ff, 0 0 60px #c7f464ff;
+  }
+}
