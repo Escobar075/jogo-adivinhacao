@@ -1055,7 +1055,7 @@ document.addEventListener("click", (event) => {
 
 controleBrilho.addEventListener("input", () => {
   const brilho = controleBrilho.value;
-  const intensidade = brilho / 10;
+  const intensidade = brilho / 100;
   const resultado = document.getElementById("resultado");
   resultado.style.textShadow = `
     0 0 ${10 + brilho * 2}px rgba(199, 244, 100, ${intensidade})
