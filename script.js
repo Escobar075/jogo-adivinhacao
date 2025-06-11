@@ -854,24 +854,33 @@ const menuIdioma = document.getElementById("menu-idioma");
 const idiomaBtns = document.querySelectorAll(".idioma-btn");
 const btnMenuConfig = document.getElementById("btn-menu-config");
 const menuConfig = document.getElementById("menu-config");
-const btnMenuTema = document.getElementById("btn-menu-tema");
-const menuTema = document.getElementById("menu-tema");
 
 menuHamburguer.addEventListener("click", () => {
   menuPrincipal.classList.toggle("menu-fechado");
 });
-
 btnMenuIdioma.addEventListener("click", () => {
   menuIdioma.classList.toggle("menu-fechado");
 });
-
 btnMenuConfig.addEventListener("click", () => {
   menuConfig.classList.toggle("menu-fechado");
 });
 
+const btnMenuTema = document.getElementById("btn-menu-tema");
+const menuTema = document.getElementById("menu-tema");
+
 btnMenuTema.addEventListener("click", () => {
   menuTema.classList.toggle("menu-fechado");
 });
+
+const btnMenuModo = document.getElementById("btn-menu-modo");
+const menuModo = document.getElementById("menu-modo");
+
+btnMenuModo.addEventListener("click", () => {
+  menuModo.classList.toggle("menu-fechado");
+});
+
+const btnMenuBrilho = document.getElementById("btn-menu-brilho");
+const menuBrilho = document.getElementById("menu-brilho");
 
 btnMenuBrilho.addEventListener("click", () => {
   menuBrilho.classList.toggle("menu-fechado");
