@@ -555,3 +555,15 @@ body.dark .menu-subbloco > button:hover {
 body.dark #controle-brilho {
   accent-color: #a6f48b;
 }
+
+#menu-modo {
+  margin-top: 0.4rem;
+  padding-left: 0.8rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+#menu-modo.menu-fechado {
+  display: none;
+}
