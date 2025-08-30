@@ -1,4 +1,4 @@
-Projeto: Adivinhe o Número
+#Projeto: Adivinhe o Número#
 Este é um jogo de adivinhação de números interativo, construído com HTML, CSS e JavaScript puro. O jogo utiliza um algoritmo de lógica binária para adivinhar qualquer número que o usuário pensar entre 1 e 63, fazendo apenas 6 perguntas de "sim" ou "não".
 
 🚀 Como Funciona o Jogo
